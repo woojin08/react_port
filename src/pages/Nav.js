@@ -1,18 +1,18 @@
 const DB = [
     {
         id: 1,
-        content: "menu01",
+        content: "ABOUT",
         link: "/s1",
         submenu: [
-            { content: "smenu011", link: "/1" },
-            { content: "smenu012", link: "/2" },
-            { content: "smenu013", link: "/3" },
+            { content: "INFO", link: "/1" },
+            { content: "STOCKISTS", link: "/2" },
+            { content: "CONTACT", link: "/3" },
 
         ]
     },
     {
         id: 2,
-        content: "menu02",
+        content: "SHOP",
         link: "/s1",
         submenu: [
             { content: "smenu021", link: "/1" },
@@ -23,7 +23,7 @@ const DB = [
     },
     {
         id: 3,
-        content: "menu03",
+        content: "COLLECTION",
         link: "/s1",
         submenu: [
             { content: "smenu031", link: "/1" },
@@ -31,7 +31,29 @@ const DB = [
             { content: "smenu033", link: "/3" },
 
         ]
-    }
+    },
+    {
+        id: 4,
+        content: "COMMUNUTY",
+        link: "/s1",
+        submenu: [
+            { content: "smenu031", link: "/1" },
+            { content: "smenu032", link: "/2" },
+            { content: "smenu033", link: "/3" },
+
+        ]
+    },
+    {
+        id: 4,
+        content: "MY ACCOUNT",
+        link: "/s1",
+        submenu: [
+            { content: "smenu031", link: "/1" },
+            { content: "smenu032", link: "/2" },
+            { content: "smenu033", link: "/3" },
+
+        ]
+    },
 ]
 
 

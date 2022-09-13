@@ -188,12 +188,14 @@ body {
 }
 
 .Gnb li .smenu {
+
     position: absolute;
     top: 70px;
     left: 50%;
     transform: translateX(-50%);
     background: #f7f7f7;
-    width: 150px;
+    width: 180px;
+    gap: 20px;
     text-align: center;
     border: 3px solid #FFD9EC;
     line-height: 35px;
@@ -204,7 +206,8 @@ body {
 }
 
 .Gnb li:hover .smenu {
-    top: 70px;
+
+    top: 100px;
     opacity: 1;
     visibility: visible;
 }

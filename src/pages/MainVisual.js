@@ -25,6 +25,8 @@ const SlickCustom = () => {
     const set = {
         arrows: false,
         autoplay: true,
+        autoplaySpeed: 4000,
+        fade: true,
         afterChange: idx => {
             setNum(idx)
         }
