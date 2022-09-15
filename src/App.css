@@ -30,8 +30,11 @@ body {
 }
 
 .w1200 {
+    position: relative;
     width: 1200px;
     margin: 0 auto;
+    /* position: absolute;
+    padding-left: 380px; */
 }
 
 .sc {
@@ -115,9 +118,12 @@ body {
 }
 
 .Header .hd_wrap {
-    position: relative;
-    background: rgba(255, 255, 255, 0.1);
+    position: absolute;
+    width: 1900px;
+    /* background: rgba(255, 255, 255, 0.1); */
     /* background: var(--lc);*/
+    background: rgb(255, 255, 255, 0.25);
+    /* z-index: -999; */
     color: var(--dc);
     font-size: 14px;
     line-height: 100px;
@@ -125,8 +131,9 @@ body {
 }
 
 .Header.on .hd_wrap {
-    background: rgba(0, 0, 0, 0.1);
-    color: var(--lc);
+    /* background: rgba(0, 0, 0, 0.1); */
+    background: #fff;
+    color: var(--dc);
     /* background: var(--lc);
     color: var(--dc); */
     line-height: 80px;
@@ -336,7 +343,8 @@ body {
 
 .MainVisual figure {
     position: relative;
-    height: 86vh;
+    height: 100vh;
+
 
 }
 
@@ -424,7 +432,7 @@ body {
     transform: translate(-50%, -50%);
     font-size: 30px;
     color: #fff;
-    background: rgba(0, 0, 0, 0.25);
+    background: rgba(0, 0, 0, 0.2);
     padding: 20px;
 
 
@@ -479,3 +487,131 @@ body {
     color: var(--sc);
     /* text-shadow: 0 0 3px #fff; */
 }
+
+/* mc */
+
+
+.MainContent h2 {
+    position: relative;
+    padding: 20px 15px 20px 15px;
+    margin: 100px 850px 50px;
+    font-size: 23px;
+    font-weight: 500;
+    text-align: center;
+    display: inline-block;
+    border: 2px solid var(--mc);
+
+
+}
+
+.MainContent h2:hover {
+    color: #fff;
+    background: var(--mc);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+
+/* .MainContent h2::after {
+    content: "\e93e";
+    font-family: xeicon;
+    display: inline-block;
+    margin: 0 0 0 10px;
+    font-size: 10px;
+    vertical-align: 1px;
+    cursor: pointer;
+} */
+
+
+
+.MainContent .inner img {
+    float: right;
+
+
+}
+
+/* .MainContent figure img {
+    transition: 0.5s;
+}
+
+.MainContent figure:hover img {
+    transform: scale(1.1);
+}
+
+.MainContent .box {
+    margin: 0 0 40px 0;
+    overflow: hidden;
+} */
+
+.MainContent p {
+    padding: 100px 0 0 0;
+    background: url(../public/assets/442d1857ad9882853161a159beeef9d9.jpg) repeat-x;
+}
+
+.MainContent .tit {
+    float: left;
+    padding: 0 20px 0 0px;
+    padding-top: 95px;
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--mc);
+
+}
+
+.MainContent .dec {
+    display: flex;
+    padding-left: 15px;
+    font-size: 15px;
+    letter-spacing: 1.1px;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.MainContent .des {
+    display: flex;
+    padding-top: 30px;
+    padding-left: 15px;
+    font-size: 15px;
+    letter-spacing: 1.1px;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.MainContent .box img {
+    width: 300px;
+    object-fit: contain;
+}
+
+/* pf */
+.Portfolio h2 {
+    position: relative;
+    display: block;
+    /* padding: 20px 15px 20px 15px; */
+    margin: 100px 850px 50px;
+    font-size: 23px;
+    font-weight: 500;
+    text-align: center;
+
+
+}
+
+.Portfolio h2:hover {
+
+    /* color: #fff;
+    background: var(--mc); */
+    cursor: pointer;
+    transition: 0.5s;
+    border-bottom: 2px solid var(--mc);
+
+
+}
+
+.Portfolio .box {
+    margin: 0 0 40px 0;
+    overflow: hidden;
+
+
+}
+
+.Portfolio .box img {}

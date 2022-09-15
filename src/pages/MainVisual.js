@@ -73,8 +73,8 @@ const SlickCustom = () => {
             </div>
 
             <div className="slideArrow">
-                <i className='xi-arrow-left' onClick={() => s1.current.slickPrev()}></i>
-                <i className='xi-arrow-right' onClick={() => s1.current.slickNext()}></i>
+                <i className='xi-angle-left-thin' onClick={() => s1.current.slickPrev()}></i>
+                <i className='xi-angle-right-thin' onClick={() => s1.current.slickNext()}></i>
             </div >
             <ul className="slideDot">
                 {
