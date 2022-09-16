@@ -18,7 +18,7 @@ const MainContent = () => {
                             <figure key={content.id}>
                                 <div className="box">
                                     {/* <img src={process.env.PUBLIC_URL + " assets/section1_" + content.id + ".jpg"} alt="" /> */}
-                                    <img src={process.env.PUBLIC_URL + " assets/info.jpg"} alt="" />
+                                    <img src={process.env.PUBLIC_URL + "/assets/info.jpg"} alt="" />
                                 </div>
                                 <div className="tit">{content.title}</div>
                                 <div className="dec">{content.dec}</div>
