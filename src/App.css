@@ -214,7 +214,7 @@ body {
 
 .Gnb li:hover .smenu {
 
-    top: 100px;
+    top: 80px;
     opacity: 1;
     visibility: visible;
 }
