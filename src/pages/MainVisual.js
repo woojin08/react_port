@@ -43,7 +43,7 @@ const SlickCustom = () => {
                         <div className="slogan">
                             <h2>{itm.h2}</h2>
                             <p>{itm.p}</p>
-                            <a href="#!">more</a>
+                            {/* <a href="#!">more</a> */}
                         </div>
                     </figure>)
                 }
