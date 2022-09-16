@@ -470,7 +470,8 @@ body {
     position: absolute;
     width: 0;
     height: 100%;
-    background: #662500;
+    /* background: #662500; */
+    background: var(--sc);
 }
 
 .MainVisual .slideDot li.on::after {
@@ -580,7 +581,7 @@ body {
 
 .MainContent .box img {
     width: 300px;
-    object-fit: contain;
+    object-fit: cover;
 }
 
 /* pf */
